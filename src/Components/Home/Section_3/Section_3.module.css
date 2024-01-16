@@ -1,0 +1,238 @@
+.Section3_img {
+  image-rendering: -moz-crisp-edges; /* firefox */
+  image-rendering: -o-crisp-edges; /* opera */
+  image-rendering: -webkit-optimize-contrast; /* chrome(비표준) */
+  image-rendering: crisp-edges;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+div [id="Section3_container"] {
+  background-color: #f8f8f8;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  display: flex;
+}
+div [id="Section3_title_row"] {
+  margin: 50px 0px;
+  text-align: center;
+  width: 100%;
+}
+div [id="Section3_row"] {
+  flex-wrap: nowrap;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 20px;
+  justify-content: center;
+}
+.Section3_perfume {
+  font-weight: 700;
+}
+.Section3_hr:first-child {
+  margin: 0px auto 15px;
+  width: 130px;
+  border-top: 3px solid black;
+}
+.Section3_hr:last-child {
+  border-top: 3px solid black;
+  margin: 10px auto 0px;
+  width: 130px;
+}
+
+div[id="Section3_col"] {
+  margin-right: 5px;
+  text-align: center;
+  position: relative;
+  padding: 0;
+  margin: 0 12px;
+}
+.Section3_title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.Section3_p {
+  font-size: 13px;
+  font-weight: 400;
+}
+.Section3_price {
+  width: 100%;
+}
+/* hover_1 */
+.Section3_hover_1 {
+  display: none;
+}
+.Section3_col_1:hover .Section3_hover_1 {
+  display: block;
+}
+
+.Section3_hover_1_a {
+  transition: all 0.5s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+/* hover_2 */
+.Section3_hover_2 {
+  display: none;
+}
+.Section3_col_2:hover .Section3_hover_2 {
+  display: block;
+}
+
+.Section3_hover_2_a {
+  transition: all 0.5s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+/* hover_3 */
+.Section3_hover_3 {
+  display: none;
+}
+.Section3_col_3:hover .Section3_hover_3 {
+  display: block;
+}
+
+.Section3_hover_3_a {
+  transition: all 0.5s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+/* hover_4 */
+.Section3_hover_4 {
+  display: none;
+}
+.Section3_col_4:hover .Section3_hover_4 {
+  display: block;
+}
+
+.Section3_hover_4_a {
+  transition: all 0.5s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+/* hover_5 */
+.Section3_hover_5 {
+  display: none;
+}
+.Section3_col_5:hover .Section3_hover_5 {
+  display: block;
+}
+
+.Section3_hover_5_a {
+  transition: all 0.5s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+/* hover_6 */
+.Section3_hover_6 {
+  display: none;
+}
+.Section3_col_6:hover .Section3_hover_6 {
+  display: block;
+}
+
+.Section3_hover_6_a {
+  transition: all 0.5s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+div [id="Section3_button"] {
+  margin-top: 60px;
+  flex-wrap: wrap;
+}
+.Section3_button {
+  display: flex;
+  justify-content: center;
+}
+.Section3_button a {
+  text-decoration: none;
+  color: black;
+}
+.Section3_button h3 {
+  border: 1px solid black;
+  letter-spacing: 5px;
+  padding: 10px 20px;
+  font-weight: 600;
+}
+.Section3_button h3:hover {
+  background-color: gray;
+  color: #f8f8f8;
+}
+
+@media (max-width: 575px) {
+  div [id="Section3_row"] {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  div[id="Section3_col"] {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 991px) {
+  div [id="Section3_col"] {
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 991px) {
+  div [id="Section3_row"] {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
