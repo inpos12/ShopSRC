@@ -60,7 +60,6 @@ const App = () => {
     <BrowserRouter>
       <Navbar />
       <Kakao />
-
       <Routes>
         /* 메인페이지 */
         <Route path="/" element={<Home />} />
@@ -109,6 +108,7 @@ const App = () => {
         <Route path="/Login" element={<Login />} />
         <Route path="/SignUp" element={<SignUp />} />
       </Routes>
+      /* 푸터 */
       <Footer />
     </BrowserRouter>
   );
